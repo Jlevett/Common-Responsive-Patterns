@@ -1,0 +1,47 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 100%;
+}
+
+
+.green {
+ width: 100%;
+ background-color: #2ACF22;
+ height: 100px;
+}
+
+.light_blue {
+ width: 100%;
+ background-color: #1FCEEE;
+ height: 100px;
+}
+
+.dark_blue {
+ width: 100%;
+ background-color: #0D077E;
+ height: 100px;
+}
+
+@media screen and (min-width: 450px){
+	.dark_blue {
+	 width: 25%;
+	}
+
+	.light_blue {
+	 width: 75%;
+	}
+}
+
+@media screen and (min-width: 550px){
+	.dark_blue, .green {
+	 width: 25%;
+	}
+
+	.light_blue {
+	 width: 50%;
+	}
+}
